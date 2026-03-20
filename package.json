@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9",
+    "sharp": "^0.34"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["sharp"]
+  }
+}
