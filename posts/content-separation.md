@@ -1,14 +1,4 @@
----
-title: 博客架构升级：内容与框架分离
-date: 2026-03-20
-tags:
-  - 技术
-  - 博客
-description: 记录博客从内容耦合到独立仓库的架构演进，实现一份内容多框架复用。
-slug: content-separation
-draft: false
-featured: false
----
+# 博客架构升级：内容与框架分离
 
 ## 为什么要分离
 

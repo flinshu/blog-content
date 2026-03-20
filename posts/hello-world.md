@@ -1,14 +1,4 @@
----
-title: 你好，世界
-date: 2026-03-20
-tags:
-  - 生活
-  - 随笔
-description: 这是我的第一篇博客，记录一个程序员的生活与思考。
-slug: hello-world
-draft: false
-featured: true
----
+# 你好，世界
 
 ## 开始
 
