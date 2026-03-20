@@ -1,0 +1,17 @@
+name: Trigger blog deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger blog repo deployment
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.BLOG_DEPLOY_TOKEN }}" \
+            https://api.github.com/repos/flinshu/blog/dispatches \
+            -d '{"event_type":"content-update"}'
