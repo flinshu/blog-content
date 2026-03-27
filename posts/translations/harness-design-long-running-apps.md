@@ -5,6 +5,7 @@ sourceAuthor: Prithvi Rajasekaran
 sourceDate: 2025-03-24
 title: 面向长周期应用开发的编排框架设计
 description: Anthropic 工程师分享如何通过多智能体编排框架（planner-generator-evaluator）提升 Claude 在前端设计和全栈应用自主开发中的表现。
+category: translation
 ---
 
 # 面向长周期应用开发的编排框架设计
