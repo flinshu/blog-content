@@ -8,4 +8,4 @@
 
 希望这个小角落，能成为我和世界对话的地方。
 
-![测试图片](../assets/test-banner.jpg)
+![测试图片](../../assets/test-banner.jpg)
